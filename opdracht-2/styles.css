@@ -7,55 +7,88 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-    width: 700px;
+    width: 100%;
     min-width: 250px;
-
+    font-size: small;
+    background-color: #f3f3f3;
 }
 
 .left-container {
-    width: 35%;
-    background-color:  lightblue;
+    width: 20%;
+    background-color: #ffffff;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    height: auto;
+    list-style: none;
 }
 .logo-box {
     border:1px dashed #000000;
+    flex-grow: 1;
+    font:bold 16px sans-serif;
 }
 .keuze-box {
     border: 1px dashed #000000;
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .knop-box {
     border: 1px dashed #000000;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    row-gap:5px;
-    margin:0 0 10px 0;
-    align-self:  stretch;
+    align-items:  center;
+    row-gap: 5px;
+    margin: 0 0 10px 0;
+    flex-grow: 1;
+    width: 100%;
 }
-.knop-box button {
+.knop-box .button-secondary {
     background-color: black;
     color: white;
+    width: 100%;
+    display:block;
+
 }
+.knop-box p {
+    color: black;
+    background-color: white;
+    padding: 1px 16px;
+    border: 1px solid black;
+    width: 100%;
+}
+
 .right-container {
     width: 70%;
-    overflow:auto;
+    /*overflow:auto;*/
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: auto;
 
 }
 
 .header-box {
     border:1px dashed #ff0000;
+    text-align: center;
 }
 .text-box {
     border: 1px dashed #00ff00;
+    text-align:left;
+
 }
 .footer-box {
     border: 1px dotted #0000ff;
+    text-align: center;
+    background-color: #383838;
+    color: white;
 }
 
 
