@@ -1,0 +1,109 @@
+.navbar-one ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px dashed #ccc;
+    list-style-type: none;
+    background-color: white;
+    font-size: 12px;
+}
+
+
+.navbar-two ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 2px dashed #1233;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    font-size:  12px;
+}
+
+.navbar-three {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    font-size:  12px;
+
+}
+
+.image-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+    border:3px dashed #00ff00;
+    height:30px;
+}
+
+.navbar-three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+       align-items: center;
+    list-style-type: none;
+}
+
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height:55px;
+
+}
+.navbar-four div {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-four ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+}
+.knop-handling {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    column-gap: 5px;
+    list-style-type:  none;
+
+}
+
+.left-side-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    column-gap: 5px;
+}
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style-type: none;
+    align-items: center;
+    column-gap: 5px;
+
+    /*background-color: white;
+    color: black;**/
+}
+.navbar-five ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style-type: none;
+
+}
+
+
